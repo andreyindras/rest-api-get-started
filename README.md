@@ -126,6 +126,29 @@ Crie rotas para:
 
 ---
 
+## ▶️ Instruções para executar o projeto
+
+Antes de iniciar os testes com as rotas, siga os passos abaixo:
+
+1.	Navegue até a pasta do projeto usando o terminal ou prompt de comando:
+```bash
+cd nome-da-pasta-do-projeto
+```
+
+2.	Instale as dependências do projeto:
+```bash
+npm install
+```
+
+3.	Inicie a aplicação:
+```bash
+node app.js
+```
+
+Após esses passos, o servidor deverá estar rodando (por padrão, em http://localhost:3000). Você pode utilizar o Postman, Insomnia ou o navegador para testar suas rotas.
+
+---
+
 ## ✅ Avaliação da Atividade
 
 A avaliação considerará a **coerência na criação das rotas** e a **adequação das respostas retornadas** por elas. Os alunos devem se atentar aos seguintes critérios:
