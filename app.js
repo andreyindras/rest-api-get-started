@@ -88,7 +88,6 @@ app.delete('/livros/:id', function(req, res) {
 let listaUsuarios = [];
 let IDusuarios = 1;
 
-// Rotas para Usuários (agora com /usuarios)
 app.post('/usuarios', function(req, res) {
     const usuario = {
         id: IDusuarios++,
