@@ -15,7 +15,6 @@ app.listen(port, () => {
 let listaLivros = [];
 let IDlivros = 1;
 
-// Rotas para Livros (agora com /livros)
 app.post('/livros', function(req, res) {
     const livro = {
         id: IDlivros++,
